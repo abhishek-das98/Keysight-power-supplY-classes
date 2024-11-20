@@ -7,6 +7,6 @@ obj.ReadCurrent([])  % Command to Read the current
 
 obj.powerOn([])  % Command to activate the port
 
-obj. setVoltage([5]) % To set the voltage to 5V
+obj. setVoltage(5, []) % To set the voltage to 5V
 obj.powerOff([])  % Command to deactivate the port
 
