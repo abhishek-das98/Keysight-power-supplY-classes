@@ -1,4 +1,4 @@
-
+% To control the single port power supply E36103B %%
 obj = ClassKeySightSupply.getInstance() % Creates an instance of the class Keysight supply
 obj.connect('SinglePowerSupply') % Select one from two power supplies: SinglePowerSupply with one output and TriplePowerSupply with three outputs
 
